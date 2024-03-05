@@ -9,6 +9,7 @@ export interface Field {
 export interface HitField {
   showCaption?: boolean;
   displayLabel?: string;
+  facet?: boolean;
   isUserDefined?: boolean;
   show?: boolean;
   snippet?: number;
