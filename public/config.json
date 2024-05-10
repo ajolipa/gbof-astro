@@ -10,7 +10,7 @@
         {
           "endpoint": "organizations",
           "ui_label": "Organizations",
-          "default_open": false
+          "default_open": true
         },
         {
           "endpoint": "people",

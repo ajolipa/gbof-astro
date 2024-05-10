@@ -1,4 +1,4 @@
-.dialog-overlay {
+.search-features.dialog-overlay {
     background-color: rgba(0, 0, 0, 0.5);
     inset: 0;
     position: fixed;
@@ -6,7 +6,7 @@
     z-index: 98;
   }
   
-  .dialog-content {
+  .search-features.dialog-content {
     background-color: #fff;
     border-radius: 6px;
     box-shadow: rgba(14, 18, 22, 0.35) 0px 10px 38px -10px, rgba(14, 18, 22, 0.2) 0px 10px 20px -15px;
@@ -22,11 +22,11 @@
     overflow: auto;
   }
   
-  .dialog-content:focus {
+  .search-features.dialog-content:focus {
     outline: none;
   }
   
-  .dialog-close {
+  .search-features.dialog-close {
     position: absolute;
     right: 10px;
     top: 10px;
