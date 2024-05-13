@@ -51,17 +51,17 @@ const HitComponent = (props: HitComponentProps) => {
               strokeWidth={1}
             />
           </div>
+          { hit[config.featuredModel.uuid] && hit[config.featuredModel.uuid].length > 0 && (
+            <div className="flex ps-2">
+              { `${hit[config.featuredModel.uuid][0].name.slice(0,40)}${hit[config.featuredModel.uuid][0].name.length > 40 ? '...' : ''}${hit[config.featuredModel.uuid].length > 1 ? ` and ${hit[config.featuredModel.uuid].length - 1} more` : ''}` }
+            </div>
+          )}
+        </div>
           <Highlight
             attribute={'name'}
-            className='mx-4'
+            className='mx-4 text-sm text-gray-600 pt-2 ps-4'
             hit={hit}
           />
-        </div>
-        { hit[config.featuredModel.uuid] && hit[config.featuredModel.uuid].length > 0 && (
-          <div className="flex">
-            { `${m[t(config.featuredModel.uuid)]()}(s): ${hit[config.featuredModel.uuid][0].name.slice(0,40)}${hit[config.featuredModel.uuid][0].name.length > 40 ? '...' : ''}${hit[config.featuredModel.uuid].length > 1 ? ` and ${hit[config.featuredModel.uuid].length - 1} more` : ''}` }
-          </div>
-        )}
       </button>
     </div>
   );

@@ -34,8 +34,8 @@ const config = {
         ...userDefinedFields
     },
     featuredModel: {
-        uuid: '83f862f6-f231-45f7-9bc1-66ef8c2eeaf3',
-        labelField: '83f862f6-f231-45f7-9bc1-66ef8c2eeaf3.name.value'
+        uuid: '40de3d57-c3d0-4152-ab61-f970c0ada2a0',
+        labelField: '40de3d57-c3d0-4152-ab61-f970c0ada2a0.name.value'
     }
 };
 
