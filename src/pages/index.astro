@@ -15,10 +15,14 @@ const projectResponse = await client.request({
         title
         subheader
         description
+        heroImage
+        featureImage
       }
     }`,
   variables: { relativePath: 'about.mdx' },
 }, {});
+
+console.log(projectResponse.data.about)
 
 const postsResponse = await client.queries.postConnection();
 
