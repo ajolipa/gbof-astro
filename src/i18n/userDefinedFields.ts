@@ -45,25 +45,21 @@ const userDefinedFields = {
 		caption: m.t_a95021af81d7407ba878c52971ce25ae(),
 		tinaLabel: "Photos"
 	},
-	"7c10612c-93e1-46af-9244-cbd65c1938ef": {
-		caption: m.t_7c10612c93e146af9244cbd65c1938ef(),
-		tinaLabel: "Poems"
-	},
 	"01cc7389-b34b-4024-89a9-43c27fad98bf": {
 		caption: m.t_01cc7389b34b402489a943c27fad98bf(),
 		tinaLabel: "Events"
 	},
-	"8ddb57d4-44b0-4231-981e-9d636e390909": {
-		caption: m.t_8ddb57d444b04231981e9d636e390909(),
-		tinaLabel: "Organizations -> Editor"
-	},
-	"ce763bc1-5e33-4190-b4b9-56fbfc87a829": {
-		caption: m.t_ce763bc15e334190b4b956fbfc87a829(),
-		tinaLabel: "Organizations -> Publisher"
+	"d656a20d-dfe9-4b13-b9c2-5ac4f4088b1c": {
+		caption: m.t_d656a20ddfe94b13b9c25ac4f4088b1c(),
+		tinaLabel: "Organization Type"
 	},
 	"19a59d8b-ddcd-445b-a294-489d53be65db": {
 		caption: m.t_19a59d8bddcd445ba294489d53be65db(),
-		tinaLabel: "Organizations -> Contributor"
+		tinaLabel: "Organizations -> People who contributed"
+	},
+	"f3b98036-4d25-4f40-aa5b-cbf95bab3d4d": {
+		caption: m.t_f3b980364d254f40aa5bcbf95bab3d4d(),
+		tinaLabel: "People who contributed -> Role"
 	},
 	"40de3d57-c3d0-4152-ab61-f970c0ada2a0": {
 		caption: m.t_40de3d57c3d04152ab61f970c0ada2a0(),
@@ -73,13 +69,21 @@ const userDefinedFields = {
 		caption: m.t_1c2556d1366741d79cb03983e43488f9(),
 		tinaLabel: "Photos -> Landscapes"
 	},
-	"e736a052-362e-4687-8a4b-b2e63e8f845c": {
-		caption: m.t_e736a052362e46878a4bb2e63e8f845c(),
-		tinaLabel: "Poems -> Author"
-	},
 	"b9553439-1258-40d4-9349-d0d0a8fc888a": {
 		caption: m.t_b9553439125840d49349d0d0a8fc888a(),
 		tinaLabel: "Events -> Event Locations"
+	},
+	"f469c608-d021-4d12-bcdd-07af72550acf": {
+		caption: m.t_f469c608d0214d12bcdd07af72550acf(),
+		tinaLabel: "Organizations -> Cover Image"
+	},
+	"0717e933-eff1-41a4-881f-3726e8cfc9f2": {
+		caption: m.t_0717e933eff141a4881f3726e8cfc9f2(),
+		tinaLabel: "Places -> Images related to this place"
+	},
+	"08a4e1d3-ee47-4478-b814-aa190322e3cd": {
+		caption: m.t_08a4e1d3ee474478b814aa190322e3cd(),
+		tinaLabel: "Organizations -> Organization Type"
 	}
 }
 

@@ -52,5 +52,10 @@
 	"t_40de3d57c3d04152ab61f970c0ada2a0": "Organization",
 	"t_1c2556d1366741d79cb03983e43488f9": "Landscapes",
 	"t_e736a052362e46878a4bb2e63e8f845c": "Author",
-	"t_b9553439125840d49349d0d0a8fc888a": "Event Locations"
+	"t_b9553439125840d49349d0d0a8fc888a": "Event Locations",
+	"t_d656a20ddfe94b13b9c25ac4f4088b1c": "Organization Type",
+	"t_f3b980364d254f40aa5bcbf95bab3d4d": "Role",
+	"t_f469c608d0214d12bcdd07af72550acf": "Cover Image",
+	"t_0717e933eff141a4881f3726e8cfc9f2": "Images related to this place",
+	"t_08a4e1d3ee474478b814aa190322e3cd": "Organization Type"
 }
