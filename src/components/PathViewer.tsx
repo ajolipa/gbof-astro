@@ -74,7 +74,12 @@ const PathViewer = (props: PathViewerProps) => {
                             ) : (
                                 <>
                                     <h2 className="text-3xl">{path.title}</h2>
-                                    <article className="prose prose-xl prose-invert max-w-none"><TinaMarkdown content={path.description} components={{ iframe: IframeEmbed }}/></article>
+                                    <article className="prose prose-xl prose-invert max-w-none">
+                                        <TinaMarkdown 
+                                            content={path.description} 
+                                            // components={{ iframe: IframeEmbed }}
+                                        />
+                                    </article>
                                     <div className="cursor-pointer bg-white text-neutral-dark w-48 h-16 flex justify-between items-center hover:scale-105 rounded-full px-6" onClick={() => setCurrent(0)}>
                                         <p>{ m.t_startTour() }</p>
                                         <ArrowRightIcon className="h-8 w-8" />

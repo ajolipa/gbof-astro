@@ -30,7 +30,10 @@ const PostContent = (props: PostContentProps) => {
         <div className="w-full">
             <h1 className="text-3xl py-6">{title}</h1>
             <article className="prose prose-lg max-w-none w-full">
-                <TinaMarkdown content={content} components={{ place: PlaceInsert, iframe: IframeEmbed }} />
+                <TinaMarkdown content={content} components={{ 
+                    //iframe: IframeEmbed,
+                    place: PlaceInsert 
+                    }} />
             </article>
         </div>
     </RuntimeConfig>
