@@ -77,7 +77,7 @@ const PathViewer = (props: PathViewerProps) => {
                                     <article className="prose prose-xl prose-invert max-w-none">
                                         <TinaMarkdown 
                                             content={path.description} 
-                                            // components={{ iframe: IframeEmbed }}
+                                            components={{ iframe: IframeEmbed }}
                                         />
                                     </article>
                                     <div className="cursor-pointer bg-white text-neutral-dark w-48 h-16 flex justify-between items-center hover:scale-105 rounded-full px-6" onClick={() => setCurrent(0)}>
