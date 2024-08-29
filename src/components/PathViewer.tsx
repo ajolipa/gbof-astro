@@ -69,7 +69,7 @@ const PathViewer = (props: PathViewerProps) => {
                             {current >= 0 ? (
                                 <>
                                     <h2 className="text-3xl">{path.path[current].place.title}</h2>
-                                    <article className="prose prose-invert max-w-none"><TinaMarkdown content={path.path[current].blurb} /></article>
+                                    <article className="prose prose-invert max-w-none"><TinaMarkdown content={path.path[current].blurb} components={{ iframe: IframeEmbed }}/></article>
                                 </>
                             ) : (
                                 <>
